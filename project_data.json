@@ -1,0 +1,22 @@
+{
+  "project_name": "LessonSlides",
+  "primary_goal": "To develop a system that converts lesson plans into interactive 16:9 HTML slideshows, capable of embedding Google Drive audio, YouTube videos, and Pixabay images, with support for Bluetooth clicker navigation.",
+  "tasks": [],
+  "scope": {
+    "key_features": [
+      "Generate 16:9 HTML slideshows.",
+      "Embed Google Drive audio.",
+      "Embed YouTube videos.",
+      "Integrate Pixabay images.",
+      "Bluetooth clicker compatibility (via keyboard navigation).",
+      "Markdown-based lesson plan input."
+    ],
+    "proposed_technologies": {
+      "Presentation Framework": "Reveal.js",
+      "Content Input": "Markdown",
+      "Build Process": "Node.js script (for Markdown to HTML conversion)",
+      "Hosting": "Netlify (or similar static site hosting)",
+      "Image Sourcing": "Pixabay API (will require API key from user)"
+    }
+  }
+}
