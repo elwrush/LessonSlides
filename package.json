@@ -1,0 +1,24 @@
+{
+  "name": "lessonslides",
+  "version": "1.0.0",
+  "description": "HTML slideshows from lesson plans with embedded audio, video, and Pixabay images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elwrush/LessonSlides.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elwrush/LessonSlides/issues"
+  },
+  "homepage": "https://github.com/elwrush/LessonSlides#readme",
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  }
+}

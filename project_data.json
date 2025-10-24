@@ -1,7 +1,23 @@
 {
   "project_name": "LessonSlides",
   "primary_goal": "To develop a system that converts lesson plans into interactive 16:9 HTML slideshows, capable of embedding Google Drive audio, YouTube videos, and Pixabay images, with support for Bluetooth clicker navigation.",
-  "tasks": [],
+  "tasks": [
+    {
+      "name": "Scaffold basic project structure and integrate Reveal.js",
+      "status": "done",
+      "details": "Created src, dist, assets directories; initialized package.json; installed reveal.js; created basic index.html."
+    },
+    {
+      "name": "Define Markdown structure and create Node.js conversion script",
+      "status": "done",
+      "details": "Created sample src/lesson.md with custom tags for YouTube, Google Drive Audio, and Pixabay images. Created build.js to parse Markdown and generate dist/index.html. Added 'build' script to package.json."
+    },
+    {
+      "name": "Run build script",
+      "status": "done",
+      "details": "Executed 'npm run build' successfully, generating dist/index.html."
+    }
+  ],
   "scope": {
     "key_features": [
       "Generate 16:9 HTML slideshows.",
